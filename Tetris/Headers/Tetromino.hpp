@@ -12,7 +12,7 @@ class Tetromino
     unsigned char rotation;
     unsigned char shape;
 
-    std::vector<Position> minos;
+    std::vector<Position> tetros;
 public:
     Tetromino(unsigned char i_shape, const std::vector<std::vector<unsigned char>>& i_matrix);
 
@@ -27,6 +27,6 @@ public:
     void rotate(bool i_clockwise, const std::vector<std::vector<unsigned char>>& i_matrix);
     void update_matrix(std::vector<std::vector<unsigned char>>& i_matrix);
 
-    std::vector<Position> get_ghost_minos(const std::vector<std::vector<unsigned char>>& i_matrix);
-    std::vector<Position> get_minos();
+    std::vector<Position> get_ghost_tetros(const std::vector<std::vector<unsigned char>>& i_matrix);
+    std::vector<Position> get_tetros();
 };

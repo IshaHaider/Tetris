@@ -14,9 +14,9 @@
 		1AB992E62C79E6E40003310D /* libsfml-network.2.6.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB992E12C79E6E40003310D /* libsfml-network.2.6.1.dylib */; };
 		1AB992E72C79E6E40003310D /* libsfml-audio.2.6.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB992E22C79E6E40003310D /* libsfml-audio.2.6.1.dylib */; };
 		1AFC3E822C7B7FEE00AC178D /* GetTetromino.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AFC3E802C7B7FEE00AC178D /* GetTetromino.cpp */; };
-		1AFC3E852C7B806400AC178D /* Tetromino.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AFC3E832C7B806400AC178D /* Tetromino.cpp */; };
 		1AFC3E882C7B81CB00AC178D /* GameText.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AFC3E862C7B81CB00AC178D /* GameText.cpp */; };
 		1AFC3E912C7B831C00AC178D /* GetWallKickData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AFC3E8F2C7B831C00AC178D /* GetWallKickData.cpp */; };
+		1AFC3E922C7BAE1800AC178D /* Tetromino.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AFC3E832C7B806400AC178D /* Tetromino.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -191,9 +191,9 @@
 			files = (
 				1AFC3E882C7B81CB00AC178D /* GameText.cpp in Sources */,
 				1AFC3E822C7B7FEE00AC178D /* GetTetromino.cpp in Sources */,
-				1AFC3E852C7B806400AC178D /* Tetromino.cpp in Sources */,
 				1AB992D72C79E4BC0003310D /* main.cpp in Sources */,
 				1AFC3E912C7B831C00AC178D /* GetWallKickData.cpp in Sources */,
+				1AFC3E922C7BAE1800AC178D /* Tetromino.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

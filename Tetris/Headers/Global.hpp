@@ -10,7 +10,7 @@
 //Each cell will be 8x8 pixels
 constexpr unsigned char CELL_SIZE = 8;
 //The duration of the line clearing effect
-constexpr unsigned char CLEAR_EFFECT_DURATION = 8;
+constexpr unsigned char CLEAR_LINE_DURATION = 8;
 //Number of columns
 constexpr unsigned char COLUMNS = 10;
 //Lines needed to increase the game speed
