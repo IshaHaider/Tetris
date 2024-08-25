@@ -13,10 +13,10 @@
 		1AB992E52C79E6E40003310D /* libsfml-graphics.2.6.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB992E02C79E6E40003310D /* libsfml-graphics.2.6.1.dylib */; };
 		1AB992E62C79E6E40003310D /* libsfml-network.2.6.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB992E12C79E6E40003310D /* libsfml-network.2.6.1.dylib */; };
 		1AB992E72C79E6E40003310D /* libsfml-audio.2.6.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB992E22C79E6E40003310D /* libsfml-audio.2.6.1.dylib */; };
-		1AFC3E822C7B7FEE00AC178D /* GetTetromino.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AFC3E802C7B7FEE00AC178D /* GetTetromino.cpp */; };
-		1AFC3E882C7B81CB00AC178D /* GameText.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AFC3E862C7B81CB00AC178D /* GameText.cpp */; };
-		1AFC3E912C7B831C00AC178D /* GetWallKickData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AFC3E8F2C7B831C00AC178D /* GetWallKickData.cpp */; };
-		1AFC3E922C7BAE1800AC178D /* Tetromino.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AFC3E832C7B806400AC178D /* Tetromino.cpp */; };
+		1AFC3E932C7BB57800AC178D /* Tetromino.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AFC3E832C7B806400AC178D /* Tetromino.cpp */; };
+		1AFC3E942C7BB57B00AC178D /* GetWallKickData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AFC3E8F2C7B831C00AC178D /* GetWallKickData.cpp */; };
+		1AFC3E952C7BB57D00AC178D /* GetTetromino.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AFC3E802C7B7FEE00AC178D /* GetTetromino.cpp */; };
+		1AFC3E962C7BB57F00AC178D /* GameText.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AFC3E862C7B81CB00AC178D /* GameText.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,9 +47,10 @@
 		1AFC3E842C7B806400AC178D /* Tetromino.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Tetromino.hpp; sourceTree = "<group>"; };
 		1AFC3E862C7B81CB00AC178D /* GameText.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GameText.cpp; sourceTree = "<group>"; };
 		1AFC3E872C7B81CB00AC178D /* GameText.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GameText.hpp; sourceTree = "<group>"; };
-		1AFC3E8D2C7B826E00AC178D /* Font.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Font.png; path = ../../../TetrisTutorial/Tetris/Source/Resources/Images/Font.png; sourceTree = "<group>"; };
 		1AFC3E8F2C7B831C00AC178D /* GetWallKickData.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GetWallKickData.cpp; sourceTree = "<group>"; };
 		1AFC3E902C7B831C00AC178D /* GetWallKickData.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GetWallKickData.hpp; sourceTree = "<group>"; };
+		1AFC3E992C7BB70800AC178D /* Font2.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Font2.ttf; sourceTree = "<group>"; };
+		1AFC3E9B2C7BB86600AC178D /* Font.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Font.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +95,7 @@
 				1AFC3E8F2C7B831C00AC178D /* GetWallKickData.cpp */,
 				1AB992D62C79E4BC0003310D /* main.cpp */,
 				1AFC3E832C7B806400AC178D /* Tetromino.cpp */,
-				1AFC3E8C2C7B823C00AC178D /* Images */,
+				1AFC3E9A2C7BB82400AC178D /* Resources */,
 				1AFC3E792C7B12FB00AC178D /* Headers */,
 			);
 			path = Tetris;
@@ -127,9 +128,18 @@
 		1AFC3E8C2C7B823C00AC178D /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				1AFC3E8D2C7B826E00AC178D /* Font.png */,
+				1AFC3E9B2C7BB86600AC178D /* Font.png */,
+				1AFC3E992C7BB70800AC178D /* Font2.ttf */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		1AFC3E9A2C7BB82400AC178D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1AFC3E8C2C7B823C00AC178D /* Images */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,11 +199,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AFC3E882C7B81CB00AC178D /* GameText.cpp in Sources */,
-				1AFC3E822C7B7FEE00AC178D /* GetTetromino.cpp in Sources */,
+				1AFC3E942C7BB57B00AC178D /* GetWallKickData.cpp in Sources */,
 				1AB992D72C79E4BC0003310D /* main.cpp in Sources */,
-				1AFC3E912C7B831C00AC178D /* GetWallKickData.cpp in Sources */,
-				1AFC3E922C7BAE1800AC178D /* Tetromino.cpp in Sources */,
+				1AFC3E952C7BB57D00AC178D /* GetTetromino.cpp in Sources */,
+				1AFC3E932C7BB57800AC178D /* Tetromino.cpp in Sources */,
+				1AFC3E962C7BB57F00AC178D /* GameText.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

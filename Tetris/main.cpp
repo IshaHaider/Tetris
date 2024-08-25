@@ -225,8 +225,8 @@ int main() {
                     game_over = false;
                     hard_drop_pressed = false;
                     rotate_pressed = false;
-                    lines_cleared = false;
                     
+                    lines_cleared = 0;
                     current_fall_speed = START_FALL_SPEED;
                     fall_timer = 0;
                     move_timer = 0;
@@ -325,10 +325,7 @@ int main() {
                     window.draw(cell);
                 }
                 
-                game_text(
-                  static_cast<unsigned short>(CELL_SIZE * (0.5f + COLUMNS)),
-                  static_cast<unsigned short>(0.5f * CELL_SIZE * ROWS),
-                  "Lines:" + std::to_string(lines_cleared) + "\nSpeed:" + std::to_string(START_FALL_SPEED / current_fall_speed) + 'x',
+                game_text(static_cast<unsigned short>(CELL_SIZE * (0.5f + COLUMNS)), static_cast<unsigned short>(0.5f * CELL_SIZE * ROWS), "Lines:" + std::to_string(lines_cleared) + "\nSpeed:" + std::to_string(START_FALL_SPEED / current_fall_speed) + 'x',
                   window
                 );
                 

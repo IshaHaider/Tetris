@@ -7,6 +7,8 @@
 
 #include <SFML/Graphics.hpp>
 #include "Headers/GameText.hpp"
+#include <iostream>
+#include <filesystem>
 
 void game_text(unsigned short i_x, unsigned short i_y, const std::string& i_text, sf::RenderWindow& i_window)
 {
@@ -16,7 +18,12 @@ void game_text(unsigned short i_x, unsigned short i_y, const std::string& i_text
     unsigned char character_width;
     sf::Sprite character_sprite;
     sf::Texture font_texture;
-    font_texture.loadFromFile("Resources/Images/Font.png");
+    font_texture.loadFromFile("Tetris/Resources/Images/Font.png");
+    
+    if (!font_texture.loadFromFile("Tetris/Resources/Images/Font.png")) {
+        std::cerr << "Failed to load image. Please check the file path and name." << std::endl;
+        return;
+    }
 
     // Calculate the width of the character based on the font image size
     // 96 because there are 96 characters in the image
