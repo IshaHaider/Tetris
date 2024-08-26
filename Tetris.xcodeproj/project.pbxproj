@@ -49,7 +49,6 @@
 		1AFC3E872C7B81CB00AC178D /* GameText.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GameText.hpp; sourceTree = "<group>"; };
 		1AFC3E8F2C7B831C00AC178D /* GetWallKickData.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GetWallKickData.cpp; sourceTree = "<group>"; };
 		1AFC3E902C7B831C00AC178D /* GetWallKickData.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GetWallKickData.hpp; sourceTree = "<group>"; };
-		1AFC3E992C7BB70800AC178D /* Font2.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Font2.ttf; sourceTree = "<group>"; };
 		1AFC3E9B2C7BB86600AC178D /* Font.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Font.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -129,7 +128,6 @@
 			isa = PBXGroup;
 			children = (
 				1AFC3E9B2C7BB86600AC178D /* Font.png */,
-				1AFC3E992C7BB70800AC178D /* Font2.ttf */,
 			);
 			path = Images;
 			sourceTree = "<group>";
