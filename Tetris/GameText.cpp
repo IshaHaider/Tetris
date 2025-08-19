@@ -16,8 +16,10 @@ void game_text(unsigned short i_x, unsigned short i_y, const std::string& i_text
     short character_x = i_x;
     short character_y = i_y;
     unsigned char character_width;
-//    unsigned char character_height;
+
+    //    unsigned char character_height;
     sf::Sprite character_sprite;
+    
     sf::Texture font_texture;
     
     if (!font_texture.loadFromFile("Tetris/Resources/Images/Font.png")) {
@@ -48,7 +50,6 @@ void game_text(unsigned short i_x, unsigned short i_y, const std::string& i_text
 
         character_sprite.setPosition(character_x, character_y);
         character_sprite.setTextureRect(sf::IntRect(character_width * (a - 32), 0, character_width, font_texture.getSize().y));
-//        character_sprite.setTextureRect(sf::IntRect(column * character_width, row * character_height, character_width, character_height));
         character_x += character_width;
         i_window.draw(character_sprite);
     }

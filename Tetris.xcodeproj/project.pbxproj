@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A3E85EB2E5468B80079FFE0 /* Tetromino.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AFC3E832C7B806400AC178D /* Tetromino.cpp */; };
+		1A3E85EC2E5468CB0079FFE0 /* GetWallKickData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AFC3E8F2C7B831C00AC178D /* GetWallKickData.cpp */; };
+		1A3E85ED2E5468CE0079FFE0 /* GetTetromino.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AFC3E802C7B7FEE00AC178D /* GetTetromino.cpp */; };
+		1A3E85EE2E5468D10079FFE0 /* GameText.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AFC3E862C7B81CB00AC178D /* GameText.cpp */; };
+		1A3E85FE2E5471AD0079FFE0 /* libsfml-window.2.6.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A3E85F92E5471AD0079FFE0 /* libsfml-window.2.6.2.dylib */; };
+		1A3E85FF2E5471AD0079FFE0 /* libsfml-graphics.2.6.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A3E85FA2E5471AD0079FFE0 /* libsfml-graphics.2.6.2.dylib */; };
+		1A3E86002E5471AD0079FFE0 /* libsfml-system.2.6.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A3E85FB2E5471AD0079FFE0 /* libsfml-system.2.6.2.dylib */; };
+		1A3E86012E5471AD0079FFE0 /* libsfml-network.2.6.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A3E85FC2E5471AD0079FFE0 /* libsfml-network.2.6.2.dylib */; };
+		1A3E86022E5471AD0079FFE0 /* libsfml-audio.2.6.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A3E85FD2E5471AD0079FFE0 /* libsfml-audio.2.6.2.dylib */; };
 		1AB992D72C79E4BC0003310D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AB992D62C79E4BC0003310D /* main.cpp */; };
-		1AB992E32C79E6E40003310D /* libsfml-system.2.6.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB992DE2C79E6E40003310D /* libsfml-system.2.6.1.dylib */; };
-		1AB992E42C79E6E40003310D /* libsfml-window.2.6.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB992DF2C79E6E40003310D /* libsfml-window.2.6.1.dylib */; };
-		1AB992E52C79E6E40003310D /* libsfml-graphics.2.6.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB992E02C79E6E40003310D /* libsfml-graphics.2.6.1.dylib */; };
-		1AB992E62C79E6E40003310D /* libsfml-network.2.6.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB992E12C79E6E40003310D /* libsfml-network.2.6.1.dylib */; };
-		1AB992E72C79E6E40003310D /* libsfml-audio.2.6.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB992E22C79E6E40003310D /* libsfml-audio.2.6.1.dylib */; };
-		1AFC3E932C7BB57800AC178D /* Tetromino.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AFC3E832C7B806400AC178D /* Tetromino.cpp */; };
-		1AFC3E942C7BB57B00AC178D /* GetWallKickData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AFC3E8F2C7B831C00AC178D /* GetWallKickData.cpp */; };
-		1AFC3E952C7BB57D00AC178D /* GetTetromino.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AFC3E802C7B7FEE00AC178D /* GetTetromino.cpp */; };
-		1AFC3E962C7BB57F00AC178D /* GameText.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AFC3E862C7B81CB00AC178D /* GameText.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,13 +32,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1A3E85F92E5471AD0079FFE0 /* libsfml-window.2.6.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-window.2.6.2.dylib"; path = "../../../../opt/homebrew/Cellar/sfml@2/2.6.2_1/lib/libsfml-window.2.6.2.dylib"; sourceTree = "<group>"; };
+		1A3E85FA2E5471AD0079FFE0 /* libsfml-graphics.2.6.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-graphics.2.6.2.dylib"; path = "../../../../opt/homebrew/Cellar/sfml@2/2.6.2_1/lib/libsfml-graphics.2.6.2.dylib"; sourceTree = "<group>"; };
+		1A3E85FB2E5471AD0079FFE0 /* libsfml-system.2.6.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-system.2.6.2.dylib"; path = "../../../../opt/homebrew/Cellar/sfml@2/2.6.2_1/lib/libsfml-system.2.6.2.dylib"; sourceTree = "<group>"; };
+		1A3E85FC2E5471AD0079FFE0 /* libsfml-network.2.6.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-network.2.6.2.dylib"; path = "../../../../opt/homebrew/Cellar/sfml@2/2.6.2_1/lib/libsfml-network.2.6.2.dylib"; sourceTree = "<group>"; };
+		1A3E85FD2E5471AD0079FFE0 /* libsfml-audio.2.6.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-audio.2.6.2.dylib"; path = "../../../../opt/homebrew/Cellar/sfml@2/2.6.2_1/lib/libsfml-audio.2.6.2.dylib"; sourceTree = "<group>"; };
 		1AB992D32C79E4BC0003310D /* Tetris */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Tetris; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AB992D62C79E4BC0003310D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		1AB992DE2C79E6E40003310D /* libsfml-system.2.6.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-system.2.6.1.dylib"; path = "../../../../../opt/homebrew/Cellar/sfml/2.6.1/lib/libsfml-system.2.6.1.dylib"; sourceTree = "<group>"; };
-		1AB992DF2C79E6E40003310D /* libsfml-window.2.6.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-window.2.6.1.dylib"; path = "../../../../../opt/homebrew/Cellar/sfml/2.6.1/lib/libsfml-window.2.6.1.dylib"; sourceTree = "<group>"; };
-		1AB992E02C79E6E40003310D /* libsfml-graphics.2.6.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-graphics.2.6.1.dylib"; path = "../../../../../opt/homebrew/Cellar/sfml/2.6.1/lib/libsfml-graphics.2.6.1.dylib"; sourceTree = "<group>"; };
-		1AB992E12C79E6E40003310D /* libsfml-network.2.6.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-network.2.6.1.dylib"; path = "../../../../../opt/homebrew/Cellar/sfml/2.6.1/lib/libsfml-network.2.6.1.dylib"; sourceTree = "<group>"; };
-		1AB992E22C79E6E40003310D /* libsfml-audio.2.6.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-audio.2.6.1.dylib"; path = "../../../../../opt/homebrew/Cellar/sfml/2.6.1/lib/libsfml-audio.2.6.1.dylib"; sourceTree = "<group>"; };
 		1AB992E82C79E7780003310D /* Tetris.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tetris.entitlements; sourceTree = "<group>"; };
 		1AFC3E7B2C7B130C00AC178D /* Global.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Global.hpp; sourceTree = "<group>"; };
 		1AFC3E802C7B7FEE00AC178D /* GetTetromino.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GetTetromino.cpp; sourceTree = "<group>"; };
@@ -57,11 +57,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AB992E32C79E6E40003310D /* libsfml-system.2.6.1.dylib in Frameworks */,
-				1AB992E42C79E6E40003310D /* libsfml-window.2.6.1.dylib in Frameworks */,
-				1AB992E52C79E6E40003310D /* libsfml-graphics.2.6.1.dylib in Frameworks */,
-				1AB992E62C79E6E40003310D /* libsfml-network.2.6.1.dylib in Frameworks */,
-				1AB992E72C79E6E40003310D /* libsfml-audio.2.6.1.dylib in Frameworks */,
+				1A3E85FE2E5471AD0079FFE0 /* libsfml-window.2.6.2.dylib in Frameworks */,
+				1A3E85FF2E5471AD0079FFE0 /* libsfml-graphics.2.6.2.dylib in Frameworks */,
+				1A3E86002E5471AD0079FFE0 /* libsfml-system.2.6.2.dylib in Frameworks */,
+				1A3E86012E5471AD0079FFE0 /* libsfml-network.2.6.2.dylib in Frameworks */,
+				1A3E86022E5471AD0079FFE0 /* libsfml-audio.2.6.2.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,11 +103,11 @@
 		1AB992DD2C79E6E40003310D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1AB992E22C79E6E40003310D /* libsfml-audio.2.6.1.dylib */,
-				1AB992E02C79E6E40003310D /* libsfml-graphics.2.6.1.dylib */,
-				1AB992E12C79E6E40003310D /* libsfml-network.2.6.1.dylib */,
-				1AB992DE2C79E6E40003310D /* libsfml-system.2.6.1.dylib */,
-				1AB992DF2C79E6E40003310D /* libsfml-window.2.6.1.dylib */,
+				1A3E85FD2E5471AD0079FFE0 /* libsfml-audio.2.6.2.dylib */,
+				1A3E85FA2E5471AD0079FFE0 /* libsfml-graphics.2.6.2.dylib */,
+				1A3E85FC2E5471AD0079FFE0 /* libsfml-network.2.6.2.dylib */,
+				1A3E85FB2E5471AD0079FFE0 /* libsfml-system.2.6.2.dylib */,
+				1A3E85F92E5471AD0079FFE0 /* libsfml-window.2.6.2.dylib */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -197,11 +197,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AFC3E942C7BB57B00AC178D /* GetWallKickData.cpp in Sources */,
+				1A3E85EC2E5468CB0079FFE0 /* GetWallKickData.cpp in Sources */,
 				1AB992D72C79E4BC0003310D /* main.cpp in Sources */,
-				1AFC3E952C7BB57D00AC178D /* GetTetromino.cpp in Sources */,
-				1AFC3E932C7BB57800AC178D /* Tetromino.cpp in Sources */,
-				1AFC3E962C7BB57F00AC178D /* GameText.cpp in Sources */,
+				1A3E85ED2E5468CE0079FFE0 /* GetTetromino.cpp in Sources */,
+				1A3E85EB2E5468B80079FFE0 /* Tetromino.cpp in Sources */,
+				1A3E85EE2E5468D10079FFE0 /* GameText.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,10 +324,26 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H2A8472PR2;
 				ENABLE_HARDENED_RUNTIME = YES;
-				HEADER_SEARCH_PATHS = "\"/opt/homebrew/include\"\n";
+				HEADER_SEARCH_PATHS = (
+					"\"/opt/homebrew/include\"",
+					"/opt/homebrew/opt/sfml@2/include",
+				);
+				LD_RUNPATH_SEARCH_PATHS = (
+					"/opt/homebrew/opt/sfml/lib\n/opt/homebrew/opt/sfml/lib",
+				);
 				LIBRARY_SEARCH_PATHS = (
 					/opt/homebrew/lib,
 					/opt/homebrew/Cellar/sfml/2.6.1/lib,
+					/opt/homebrew/opt/sfml/lib,
+					/opt/homebrew/opt/sfml/lib,
+					/opt/homebrew/opt/sfml/lib,
+					/opt/homebrew/opt/sfml/lib,
+					/opt/homebrew/opt/sfml/lib,
+					/opt/homebrew/opt/sfml/lib,
+					opt/homebrew/opt/sfml/lib,
+					/opt/homebrew/Cellar/sfml/3.0.1/lib,
+					"/opt/homebrew/opt/sfml@2/lib",
+					"/opt/homebrew/Cellar/sfml@2/2.6.2_1/lib",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -340,10 +356,26 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H2A8472PR2;
 				ENABLE_HARDENED_RUNTIME = YES;
-				HEADER_SEARCH_PATHS = "\"/opt/homebrew/include\"\n";
+				HEADER_SEARCH_PATHS = (
+					"\"/opt/homebrew/include\"",
+					"/opt/homebrew/opt/sfml@2/include",
+				);
+				LD_RUNPATH_SEARCH_PATHS = (
+					"/opt/homebrew/opt/sfml/lib\n/opt/homebrew/opt/sfml/lib",
+				);
 				LIBRARY_SEARCH_PATHS = (
 					/opt/homebrew/lib,
 					/opt/homebrew/Cellar/sfml/2.6.1/lib,
+					/opt/homebrew/opt/sfml/lib,
+					/opt/homebrew/opt/sfml/lib,
+					/opt/homebrew/opt/sfml/lib,
+					/opt/homebrew/opt/sfml/lib,
+					/opt/homebrew/opt/sfml/lib,
+					/opt/homebrew/opt/sfml/lib,
+					opt/homebrew/opt/sfml/lib,
+					/opt/homebrew/Cellar/sfml/3.0.1/lib,
+					"/opt/homebrew/opt/sfml@2/lib",
+					"/opt/homebrew/Cellar/sfml@2/2.6.2_1/lib",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
